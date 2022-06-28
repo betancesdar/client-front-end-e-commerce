@@ -45,41 +45,41 @@ export const categories = [
 export const popularProducts = [
     {
         id:1,
-        img: "https://i.ebayimg.com/images/g/x8gAAOSwsOZie7tl/s-l1600.png"
+        img: "https://i.ebayimg.com/images/g/YngAAOSwksdihGae/s-l1600.png"
     },
     {
         id:2,
-        img: "https://i.ebayimg.com/images/g/x8gAAOSwsOZie7tl/s-l1600.png"
+        img: "https://i.ebayimg.com/images/g/YngAAOSwksdihGae/s-l1600.png"
     },
 
     {
         id:3,
-        img: "https://i.ebayimg.com/images/g/x8gAAOSwsOZie7tl/s-l1600.png"
+        img: "https://i.ebayimg.com/images/g/YngAAOSwksdihGae/s-l1600.png"
     },
 
     {
         id:4,
-        img: "https://i.ebayimg.com/images/g/x8gAAOSwsOZie7tl/s-l1600.png"
+        img: "https://i.ebayimg.com/images/g/YngAAOSwksdihGae/s-l1600.png"
     },
 
     {
         id:5,
-        img: "https://i.ebayimg.com/images/g/x8gAAOSwsOZie7tl/s-l1600.png"
+        img: "https://i.ebayimg.com/images/g/YngAAOSwksdihGae/s-l1600.png"
     },
 
     {
         id:6,
-        img: "https://i.ebayimg.com/images/g/x8gAAOSwsOZie7tl/s-l1600.png"
+        img: "https://i.ebayimg.com/images/g/YngAAOSwksdihGae/s-l1600.png"
     },
 
     {
         id:7,
-        img: "https://i.ebayimg.com/images/g/x8gAAOSwsOZie7tl/s-l1600.png"
+        img: "https://i.ebayimg.com/images/g/YngAAOSwksdihGae/s-l1600.png"
     },
 
     {
         id:8,
-        img: "https://i.ebayimg.com/images/g/x8gAAOSwsOZie7tl/s-l1600.png"
+        img: "https://i.ebayimg.com/images/g/YngAAOSwksdihGae/s-l1600.png"
     },
 
 ];

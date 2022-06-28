@@ -18,7 +18,7 @@ const Info = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: rgba(204,153,0,0.5);
+    background-color: rgba(47,190,239,0.5);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -35,15 +35,15 @@ const Button = styled.button`
     border: none;
     padding: 10px;
     font-size: 20px;
-    background-color: #cc9900;
+    background-color: #2FBEEF;
     color: white;
     cursor: pointer;
 
     &:hover{
         background-color: transparent;
         transition: all 0.5s ease;
-        color: black;
-        border-radius: 100%;
+        color: #2FBEEF;
+        border: 1px solid #2FBEEF;
     }
 `
 
