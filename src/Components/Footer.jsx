@@ -1,100 +1,130 @@
-import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
-import styled from "styled-components"
-
-const Container = styled.div`
+  import styled from "styled-components";
+  import { Facebook, Instagram, WhatsApp,MailOutline,Room,Phone } from "@mui/icons-material";
+  
+  const Container = styled.div`
     display: flex;
-    height: 100%;
-    background-color: #2FBEEF;
-    padding: 20px;
-`;
-const Left = styled.div`
-    flex:1;
+    
+  `;
+  
+  const Left = styled.div`
+    flex: 1;
     display: flex;
     flex-direction: column;
-`;
-const Tittle = styled.h3`
-    font-size: 30px;
-    text-decoration: underline;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    text-align: center;
-`
-
-const SocialContainer = styled.div`
+    padding: 20px;
+  `;
+  
+  const Logo = styled.h1``;
+  
+  const Desc = styled.p`
+    margin: 20px 0px;
+  `;
+  
+  const SocialContainer = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5px;
-`
-
-const SocialIcon = styled.div`
+  `;
+  
+  const SocialIcon = styled.div`
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    color:white;
-    background-color: #${props=>props.color};
+    color: white;
+    background-color: #${(props) => props.color};
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 20px;
-`
+  `;
+  
+  const Center = styled.div`
+    flex: 1;
+    padding: 20px;
 
-const Button = styled.button`
-    margin-top: 3px;
-    font-size: 16px;
-    font-weight: bold;
-    justify-content: space-between;
-    color: white;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    transition: all 0.5s ease;
-
-    &:hover{
-        color: black;
-        transform: scale(1.1);
-    }
-
-`;
-
-const Center = styled.div`
-    flex:1;
-`;
-const Right = styled.div`
-    flex:1;
-`;
-
-
-const Footer = () => {
-  return (
-    <Container>
-      <Left>
-        <Tittle>About</Tittle>
-        <SocialContainer>
-          <SocialIcon color="3B5998">
-            <Facebook />
-          </SocialIcon>
-          <SocialIcon color="ff0066">
-            <Instagram />
-          </SocialIcon>
-          <SocialIcon color="339933">
-            <WhatsApp />
-          </SocialIcon>
-        </SocialContainer>
-        <Button>About us</Button>
-        <Button>Services</Button>
-        <Button>Contact Us</Button>
-        <Button>My Account</Button>
-      </Left>
-      <Center>
-
-      </Center>
-      <Right>
-
-      </Right>
-    </Container>
-  );
-}
-
-export default Footer
+  `;
+  
+  const Title = styled.h3`
+    margin-bottom: 30px;
+  `;
+  
+  const List = styled.ul`
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  `;
+  
+  const ListItem = styled.li`
+    width: 50%;
+    margin-bottom: 10px;
+  `;
+  
+  const Right = styled.div`
+    flex: 1;
+    padding: 20px;
+  `;
+  
+  const ContactItem = styled.div`
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  `;
+  
+  const Payment = styled.img`
+      width: 50%;
+  `;
+  
+  const Footer = () => {
+    return (
+      <Container>
+        <Left>
+          <Logo>LAMA.</Logo>
+          <Desc>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don’t look even slightly believable.
+          </Desc>
+          <SocialContainer>
+            <SocialIcon color="3B5999">
+              <Facebook />
+            </SocialIcon>
+            <SocialIcon color="E4405F">
+              <Instagram />
+            </SocialIcon>
+            <SocialIcon color="55ACEE">
+              <WhatsApp />
+            </SocialIcon>
+           </SocialContainer>
+        </Left>
+        <Center>
+          <Title>Useful Links</Title>
+          <List>
+            <ListItem>Home</ListItem>
+            <ListItem>Cart</ListItem>
+            <ListItem>Man Fashion</ListItem>
+            <ListItem>Woman Fashion</ListItem>
+            <ListItem>Accessories</ListItem>
+            <ListItem>My Account</ListItem>
+            <ListItem>Order Tracking</ListItem>
+            <ListItem>Wishlist</ListItem>
+            <ListItem>Wishlist</ListItem>
+            <ListItem>Terms</ListItem>
+          </List>
+        </Center>
+        <Right>
+          <Title>Contact</Title>
+          <ContactItem>
+            <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+          </ContactItem>
+          <ContactItem>
+            <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+          </ContactItem>
+          <ContactItem>
+            <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+          </ContactItem>
+          <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+        </Right>
+      </Container>
+    );
+  };
+  
+  export default Footer;
