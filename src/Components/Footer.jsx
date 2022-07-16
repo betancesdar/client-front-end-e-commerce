@@ -127,7 +127,7 @@
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{marginRight:"10px",color:"black"}}/> Ave.Bartolome Colo #54,  Santiago de los Caballeros, Rep.Dom
+            <Room style={{marginRight:"10px",color:"black"}}/> Ave.Bartolome Colón #54,  Santiago de los Caballeros, Rep.Dom
           </ContactItem>
           <ContactItem>
             <Phone style={{marginRight:"10px",color:"black"}}/> 1-829-962-5015
