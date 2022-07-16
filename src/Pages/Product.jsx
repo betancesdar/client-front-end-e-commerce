@@ -62,8 +62,8 @@ const AmountContainer = styled.div`
 
 `;
 const Amount = styled.span`
-    width:30px;
-    height: 30px;
+    width:60px;
+    height: 60px;
     border-radius: 10px;
     border: 1px solid #2FBEEF;
     display: flex;
